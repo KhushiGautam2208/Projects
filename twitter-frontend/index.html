@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Sentiment Analysis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- ------HEADER--------- -->
+    <nav>
+        <div class="home"><a href="#home">HOME</a></div>
+        <div class="sentiment-btn"> <a href="#sentiment">Sentiment Analysis</a></div>
+    </nav>
+    <div class="main-container">
+        <!------------- HOME PAGE ----------->
+        <div class="home-container" id="home">
+            <div class="info-container">
+                <h1>welcome to the world of tweets</h1>
+                <h3>twitter sentiment analysis</h3>
+                <div class="counting">
+                    <div class="no-of-tweets">
+                        <span>350632</span>
+                        <p>Tweets send per minute</p>
+                    </div>
+                    <div class="tweets-monthly">
+                        <span>321056231</span>
+                        <p>total number of monthly active users on twitter</p>
+                    </div>
+                    <div class="tweet-time">
+                        <span>7447680</span>
+                        <p>minutes since first tweet ever</p>
+                    </div>
+                </div>
+                <p class="headline">perform <a href="#sentiment">Sentiment</a> analysis of tweets</p>
+            </div>
+            <div class="image-container">
+                <div class="twitter-image">
+                    <i class="fa-brands fa-twitter fa-10x" style="color: #005af5;"></i>
+                </div>
+            </div>
+        </div>
+        <!--------- SENTIMENT PAGE------- -->
+        <div class="sentiment-container" id="sentiment">
+            <div class="info-container">
+                <h1>sentiment analysis</h1>
+                <p class="information">categorises tweet under positive, negative or Neutral</p>
+
+                <div class="emoji-container">
+                    <img src="images/happy-icon.png" alt="">
+                    <img src="images/neutral-icon.png" alt="">
+                    <img src="images/sad-icon.png" alt="">
+                </div>
+                <p style="margin-left:0;">enter the tweet to be analysed</p>
+                <div class="search-btn">
+                    <input type="text">
+                    <i class="fa fa-search" style="font-size:24px;"></i>
+                </div>
+
+            </div>
+            <div class="image-container">
+                <i class="fa-brands fa-twitter fa-10x" id="twitter-logo" style="color: #005af5;"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/1ecd2b3dcd.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

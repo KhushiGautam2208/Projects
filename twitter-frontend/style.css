@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(to right,rgb(0, 0, 0),rgb(26, 68, 174));
+    color:white;
+    text-transform: capitalize;
+}
+
+/* ------HOME PAGE-------- */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100vw;
+    height: 10vh;
+    position: fixed;
+}
+
+nav div a{
+    text-decoration: none;
+   margin:20px 40px;
+    color: white;
+    padding-left: 10vw;
+}
+
+.home-container{
+    display: flex;
+    height:100vh;
+}
+
+.info-container{
+    margin-top:70px;
+    width:50vw;
+    height: 90vh;
+    margin-left: 10vw;
+}
+
+.info-container h1{
+    font-size: 45px ;
+    font-weight: 200;
+    padding-top:50px ;
+    padding-bottom: 10px;
+    width:40vw;
+    direction: ltr;
+}
+
+.info-container h3{
+    font-weight: 400;
+    direction: ltr;
+    padding-bottom:20px;
+    position: absolute;
+    left: 13vw;
+}
+
+.info-container p{
+    margin-left:0;
+}
+
+.counting{
+    display: flex;
+    margin-top:80px;
+}
+
+.counting div{
+    width:33vw;
+}
+
+.counting span,.headline a{
+    font-size: 30px;
+    color:goldenrod;
+    text-decoration: none;
+}
+
+.headline{
+    margin-top: 30vh;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.image-container{
+    width:40vw;
+    height: 90vh;
+}
+
+.twitter-image i{
+  width:50px;
+  margin-top: 30vh;
+}
+
+/*------ SENTIMENT PAGE------ */
+.sentiment-container{
+    display: flex;
+}
+
+.information{
+    margin-left:0;
+
+}
+
+.search-btn{
+    width:500px;
+    border-radius:20px;
+    border:3px solid white;
+    margin-left: 80px;
+    height:30px;
+    height:35px;
+}
+
+.search-btn input{
+    width:450px;
+    height:30px;
+    color:white;
+    border-style: none;
+    background: transparent;
+}  
+
+.emoji-container{
+    display: flex;
+    align-items: center;
+    margin-left:120px;
+    margin:100px 120px;
+    width:30vw;
+    justify-content: space-between;
+}
+
+#twitter-logo{
+    margin-top:30vh;
+}
+
+
+
+
